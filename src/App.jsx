@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Store from './component/Store'
+import Navbar from './component/Navbar'
 
 
 
@@ -8,13 +9,13 @@ function App() {
 
   return (
     <>
-     <h1>MY store</h1>
-     <button>Total Product : 2000</button>
+      <Navbar />
 
-     <Store />
 
-      </>
-      )
+      <Store />
+
+    </>
+  )
 }
 
-      export default App
+export default App
